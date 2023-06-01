@@ -37,6 +37,18 @@ const Shop = () => {
         }
     }
 
+    const handleSelectBestBtn = (arr) => {
+        if (arr.length === 1) {
+            alert('Best Item Already Selected.');
+        } else {
+
+            const index = Math.floor(Math.random() * arr.length);
+            const item = arr[index];
+            const newItem = [item];
+            setGetProducts(newItem)
+        }
+    }
+
 
     const handleClearBtn = () => {
         setGetProducts([]);
@@ -67,6 +79,7 @@ const Shop = () => {
                 <Cart
                     item={getProducts}
                     handleClearBtn={handleClearBtn}
+                    handleSelectBestBtn={handleSelectBestBtn}
                 ></Cart>
             </div>
         </div>

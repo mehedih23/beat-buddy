@@ -3,7 +3,7 @@ import './Cart.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrash } from '@fortawesome/free-solid-svg-icons'
 
-const Cart = ({ item, handleClearBtn }) => {
+const Cart = ({ item, handleClearBtn, handleSelectBestBtn }) => {
 
     return (
         <div className='sticky top-0'>
@@ -23,7 +23,10 @@ const Cart = ({ item, handleClearBtn }) => {
                     )
                 }
             </div>
-            <button className='w-full bg-green-700 mb-4 p-4 rounded text-white text-lg tracking-wide'>Select Best</button>
+            <button
+                className='w-full bg-green-700 mb-4 p-4 rounded text-white text-lg tracking-wide'
+                onClick={() => handleSelectBestBtn(item)}
+            >Select Best</button>
             <button
                 className='w-full bg-green-700 mb-4 p-4 rounded text-white text-lg tracking-wide'
                 onClick={handleClearBtn}
