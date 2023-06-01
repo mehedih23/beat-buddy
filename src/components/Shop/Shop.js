@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './Shop.css'
 import Product from '../Product/Product';
 import Cart from '../Cart/Cart';
+import { errorHandleCondition } from '../../utilities/Condition';
 
 const Shop = () => {
 
@@ -21,19 +22,11 @@ const Shop = () => {
             alert('Item is already added.')
         } else if (!exists) {
             newCart = [...getProducts, product];
-            if (newCart.length > 4) {
-                alert('Maximum number of products reach.')
-            } else {
-                setGetProducts(newCart);
-            }
+            errorHandleCondition(newCart, setGetProducts);
         } else {
             let previous = getProducts.filter(item => item._id !== product._id);
             newCart = [...previous, exists];
-            if (newCart.length > 4) {
-                alert('Maximum number of products reach.')
-            } else {
-                setGetProducts(newCart);
-            }
+            errorHandleCondition(newCart, setGetProducts);
         }
     }
 
@@ -47,7 +40,6 @@ const Shop = () => {
         if (arr.length === 1) {
             alert('Best Item Already Selected.');
         } else {
-
             const index = Math.floor(Math.random() * arr.length);
             const item = arr[index];
             const newItem = [item];
