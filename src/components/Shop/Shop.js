@@ -37,6 +37,11 @@ const Shop = () => {
         }
     }
 
+
+    const handleClearBtn = () => {
+        setGetProducts([]);
+    }
+
     return (
         <div className='
         grid 
@@ -59,13 +64,10 @@ const Shop = () => {
                 </div>
             </div>
             <div className='bg-green-300 rounded pt-4 pl-2 pr-2 text-center'>
-                {/*  {
-                    getProducts.map(item => <Cart
-                        key={item._id}
-                        item={item}
-                    ></Cart>)
-                } */}
-                <Cart item={getProducts}></Cart>
+                <Cart
+                    item={getProducts}
+                    handleClearBtn={handleClearBtn}
+                ></Cart>
             </div>
         </div>
     );
