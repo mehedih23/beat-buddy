@@ -2,8 +2,8 @@
     {
         "_id": "6472c46fa45f0a45b3ef4972",
         "index": 0,
-        "isStock": true,
-        "picture": "http://placehold.it/32x32",
+        "isStock": "In Stock",
+        "picture": "https://i.ibb.co/StLZTFf/1.png",
         "price": 377,
         "name": "Beats Powerbeats Pro",
         "company": "ISOTRACK"
@@ -11,8 +11,8 @@
     {
         "_id": "6472c46f75f4ae0f8adb5a7a",
         "index": 1,
-        "isStock": false,
-        "picture": "http://placehold.it/32x32",
+        "isStock": "Stock Out",
+        "picture": "https://i.ibb.co/pd1MTRt/2.png",
         "price": 384,
         "name": "Samsung Galaxy Buds Pro",
         "company": "SIGNITY"
@@ -20,8 +20,8 @@
     {
         "_id": "6472c46ffb8fe30b169078fa",
         "index": 2,
-        "isStock": true,
-        "picture": "http://placehold.it/32x32",
+        "isStock": "In Stock",
+        "picture": "https://i.ibb.co/6NcD6RY/3.png",
         "price": 391,
         "name": "Apple AirPods Pro",
         "company": "PLUTORQUE"
@@ -29,8 +29,8 @@
     {
         "_id": "6472c46f45af842fe07b4860",
         "index": 3,
-        "isStock": false,
-        "picture": "http://placehold.it/32x32",
+        "isStock": "Stock Out",
+        "picture": "https://i.ibb.co/WvSJyL7/4.png",
         "price": 142,
         "name": "Jabra Elite 75t",
         "company": "ONTALITY"
@@ -38,8 +38,8 @@
     {
         "_id": "6472c46fb149d6cbde1449a7",
         "index": 4,
-        "isStock": true,
-        "picture": "http://placehold.it/32x32",
+        "isStock": "In Stock",
+        "picture": "https://i.ibb.co/jJZRyKF/5.png",
         "price": 213,
         "name": "JBL Free X",
         "company": "LUNCHPAD"
@@ -47,8 +47,8 @@
     {
         "_id": "6472c46f24628c94184b436f",
         "index": 5,
-        "isStock": false,
-        "picture": "http://placehold.it/32x32",
+        "isStock": "Stock Out",
+        "picture": "https://i.ibb.co/DM9RYHK/6.png",
         "price": 228,
         "name": "Plantronics BackBeat FIT 3200",
         "company": "INTERLOO"
@@ -56,8 +56,8 @@
     {
         "_id": "6472c46f11349339ebb8b08e",
         "index": 6,
-        "isStock": false,
-        "picture": "http://placehold.it/32x32",
+        "isStock": "Stock Out",
+        "picture": "https://i.ibb.co/X7gv9yZ/7.png",
         "price": 63,
         "name": "Anker Soundcore Liberty Air 2 Pro",
         "company": "PORTALINE"
@@ -65,8 +65,8 @@
     {
         "_id": "6472c46f675af78f2224f296",
         "index": 7,
-        "isStock": true,
-        "picture": "http://placehold.it/32x32",
+        "isStock": "In Stock",
+        "picture": "https://i.ibb.co/h2VYh2H/8.png",
         "price": 287,
         "name": "Shure SE215",
         "company": "GINKOGENE"
@@ -74,8 +74,8 @@
     {
         "_id": "6472c46ff021f836a1f8d094",
         "index": 8,
-        "isStock": false,
-        "picture": "http://placehold.it/32x32",
+        "isStock": "Stock Out",
+        "picture": "https://i.ibb.co/yqYnTbN/9.png",
         "price": 183,
         "name": "Sony WF-1000XM4",
         "company": "SURELOGIC"
@@ -83,8 +83,8 @@
     {
         "_id": "6472c46f9f5a10ee6e612426",
         "index": 9,
-        "isStock": false,
-        "picture": "http://placehold.it/32x32",
+        "isStock": "Stock Out",
+        "picture": "https://i.ibb.co/DC27z6D/10.png",
         "price": 350,
         "name": "Audio-Technica ATH-CKsta",
         "company": "PLASMOX"
@@ -92,8 +92,8 @@
     {
         "_id": "6472c46f197cb9a78ca2eba4",
         "index": 10,
-        "isStock": false,
-        "picture": "http://placehold.it/32x32",
+        "isStock": "Stock Out",
+        "picture": "https://i.ibb.co/TwJTzMb/11.png",
         "price": 191,
         "name": "Bose QuietComfort Earbuds",
         "company": "LUDAK"
@@ -101,8 +101,8 @@
     {
         "_id": "6472c46f9ccf66e08d6dbff7",
         "index": 11,
-        "isStock": true,
-        "picture": "http://placehold.it/32x32",
+        "isStock": "In Stock",
+        "picture": "https://i.ibb.co/wYMN6C7/12.png",
         "price": 376,
         "name": "Jaybird Vista",
         "company": "COMBOGENE"
@@ -110,8 +110,8 @@
     {
         "_id": "6472c46f5f14cef1c8d37329",
         "index": 12,
-        "isStock": true,
-        "picture": "http://placehold.it/32x32",
+        "isStock": "In Stock",
+        "picture": "https://i.ibb.co/8P5mkmb/13.png",
         "price": 273,
         "name": "Sennheiser Momentum True Wireless 2",
         "company": "EXIAND"
@@ -119,8 +119,8 @@
     {
         "_id": "6472c46f3bbe83208794544f",
         "index": 13,
-        "isStock": false,
-        "picture": "http://placehold.it/32x32",
+        "isStock": "Stock Out",
+        "picture": "https://i.ibb.co/6mbBPyw/14.png",
         "price": 382,
         "name": "Skullcandy Indy Evo",
         "company": "POOCHIES"
@@ -128,8 +128,8 @@
     {
         "_id": "6472c46fbed44bfe6b366c66",
         "index": 14,
-        "isStock": false,
-        "picture": "http://placehold.it/32x32",
+        "isStock": "Stock Out",
+        "picture": "https://i.ibb.co/zPGBrX5/15.png",
         "price": 150,
         "name": "RHA TrueConnect 2",
         "company": "ARTIQ"
@@ -137,8 +137,8 @@
     {
         "_id": "6472c46f4d351f048b8286c9",
         "index": 15,
-        "isStock": true,
-        "picture": "http://placehold.it/32x32",
+        "isStock": "In Stock",
+        "picture": "https://i.ibb.co/0K4SWBy/16.png",
         "price": 137,
         "name": "Cambridge Audio Melomania 1+",
         "company": "EXTRAGENE"
@@ -146,8 +146,8 @@
     {
         "_id": "6472c46f434acc67f46b21e1",
         "index": 16,
-        "isStock": false,
-        "picture": "http://placehold.it/32x32",
+        "isStock": "Stock Out",
+        "picture": "https://i.ibb.co/NLP5dZs/17.png",
         "price": 119,
         "name": "1MORE Stylish True Wireless Earbuds",
         "company": "INTRADISK"
@@ -155,8 +155,8 @@
     {
         "_id": "6472c46fff137fa8b7e0f55d",
         "index": 17,
-        "isStock": false,
-        "picture": "http://placehold.it/32x32",
+        "isStock": "Stock Out",
+        "picture": "https://i.ibb.co/Wv1nyFL/18.png",
         "price": 342,
         "name": "SoundPEATS TrueAir2",
         "company": "ZILLIDIUM"
