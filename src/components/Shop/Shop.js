@@ -37,6 +37,12 @@ const Shop = () => {
         }
     }
 
+    const handleDeleteBtn = (product) => {
+        const rest = getProducts.filter(item => item._id !== product._id)
+        const newProducts = [...rest];
+        setGetProducts(newProducts);
+    }
+
     const handleSelectBestBtn = (arr) => {
         if (arr.length === 1) {
             alert('Best Item Already Selected.');
@@ -80,6 +86,7 @@ const Shop = () => {
                     item={getProducts}
                     handleClearBtn={handleClearBtn}
                     handleSelectBestBtn={handleSelectBestBtn}
+                    handleDeleteBtn={handleDeleteBtn}
                 ></Cart>
             </div>
         </div>

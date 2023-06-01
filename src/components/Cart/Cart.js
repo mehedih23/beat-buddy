@@ -3,7 +3,7 @@ import './Cart.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrash } from '@fortawesome/free-solid-svg-icons'
 
-const Cart = ({ item, handleClearBtn, handleSelectBestBtn }) => {
+const Cart = ({ item, handleClearBtn, handleSelectBestBtn, handleDeleteBtn }) => {
 
     return (
         <div className='sticky top-0'>
@@ -16,7 +16,9 @@ const Cart = ({ item, handleClearBtn, handleSelectBestBtn }) => {
                     >
                         <img className='inline-block h-12 w-12 rounded-full ring-2 ring-white mr-4' src={product.picture} alt={product.name} />
                         <p>{product.name.slice(0, 25)}</p>
-                        <button>
+                        <button
+                            onClick={() => handleDeleteBtn(product)}
+                        >
                             <FontAwesomeIcon icon={faTrash} style={{ color: "#ff0000" }} />
                         </button>
                     </div>
