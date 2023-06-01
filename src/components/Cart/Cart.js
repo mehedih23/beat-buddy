@@ -26,7 +26,7 @@ const Cart = ({ item, handleClearBtn, handleSelectBestBtn, handleDeleteBtn }) =>
                 }
             </div>
             <button
-                className='w-full bg-green-700 mb-4 p-4 rounded text-white text-lg tracking-wide'
+                className='w-full bg-green-700 mb-4 p-4 rounded text-white text-lg tracking-wide mt-8'
                 onClick={() => handleSelectBestBtn(item)}
             >Select Best</button>
             <button

@@ -37,7 +37,10 @@ const Shop = () => {
     }
 
     const handleSelectBestBtn = (arr) => {
-        if (arr.length === 1) {
+        if (arr.length === 0) {
+            alert('Please Select First')
+        }
+        else if (arr.length === 1) {
             alert('Best Item Already Selected.');
         } else {
             const index = Math.floor(Math.random() * arr.length);
